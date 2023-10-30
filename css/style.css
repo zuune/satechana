@@ -1,0 +1,222 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+/*medsos header*/
+.medsos{
+	background-color: #CA0101;
+	padding: 10px 0;
+}
+
+.medsos .container img{
+	width: 20px;
+}
+
+.medsos .container ul li{
+	display: inline-block;
+}
+
+.medsos .container ul li a{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/*container*/
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*header*/
+
+header .container img{
+	width: 120px;
+	height: 120px;
+	float: left;
+	text-align: center;
+}
+
+header h1{
+	color: #CA0101;
+	padding: 45px 0;
+	float: left;
+	margin-left: -20px;
+}
+
+header ul{
+	float: right;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	display: inline-block;
+	padding: 55px 20px;
+}
+
+header ul li:hover{
+	color: #fff;
+	background-color: #CA0101;
+}
+
+/*banner*/
+
+.banner{
+	height: 60vh;
+	background-image: url(../img/bg-bannerfiks.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.banner:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(228,49,22, .4);
+}
+
+section{
+	padding: 50px 0;
+}
+
+.banner h2{
+	color: #fff;
+	border: 3px solid #fff;
+	z-index: 2;
+	padding: 15px 25px;
+}
+
+.banner h2:hover{
+	transform: scale(1.20);
+}
+
+/*about*/
+
+.about,
+.service{
+	padding: 100px;
+}
+
+.container h3{
+	color: #CA0101;
+	margin-bottom: 75px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 23px;
+	text-align: center;
+}
+
+.about .container .img-about{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.about .container .img-about img{
+	width: 80%;
+	border-radius: 20px;
+}
+
+/*vidio about*/
+
+.video{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.video video{
+	border-radius: 20px;
+}
+
+/*service menu*/
+.service{
+	background-color: #f9f9f9;
+}
+
+.box{
+	color: #CA0101;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.box .col-4{
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.icon img{
+	width: 180px;
+	height: 180px;
+	border: 1px solid;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.box .col-4 h4{
+	margin: 20px 0 5px;
+}
+
+.box .col-4:hover{
+	transform: scale(1.20);
+	transition: transform 0.5s;
+}
+
+/*maps*/
+.maps{
+	text-align: center;
+	margin-top: -30px;
+}
+
+.maps img{
+	border-radius: 10px;
+}
+
+/*footer*/
+
+footer{
+	background-color: #CA0101;
+	color: #fff;
+	padding: 30px 0;
+	text-align: center;
+
+}
